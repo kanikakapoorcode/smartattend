@@ -49,40 +49,43 @@ https://github.com/kanikakapoorcode/smartattend/assets/12345678/sample-video.mp4
 ## 🛠 Installation
 ### Prerequisites
 - Node.js ≥18.x
-- Python ≥3.11
-- PostgreSQL ≥15
+- npm or yarn
 
 ```bash
-# Clone with submodules
-git clone --recurse-submodules https://github.com/kanikakapoorcode/smartattend.git
+# Clone the repository
+git clone https://github.com/kanikakapoorcode/smartattend.git
 
-# Install dependencies
-cd smartattend && npm install
+# Navigate to project directory
+cd smartattend
 
-# Set up environment
-cp .env.example .env
+# Install all dependencies (root + workspaces)
+npm run install:all
 ```
 
 ### Running Locally
 ```bash
-# Start all services
+# Start both frontend and backend
 npm run dev
+
+# Or start individually:
+npm run dev:frontend  # Frontend only (port 5173)
+npm run dev:backend   # Backend only (port 5000)
 ```
 
 ## 🔧 Tech Stack
 ### Frontend
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=nextjs,tailwind,ts,react" alt="Frontend Tech">
+  <img src="https://skillicons.dev/icons?i=react,vite,tailwind,ts" alt="Frontend Tech">
 </p>
 
 ### Backend
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=nodejs,express,postgres,redis" alt="Backend Tech">
+  <img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,ts" alt="Backend Tech">
 </p>
 
-### AI/ML
+### Shared
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch" alt="AI Tech">
+  <img src="https://skillicons.dev/icons?i=typescript,zod" alt="Shared Tech">
 </p>
 
 ## 🤝 Contributing
