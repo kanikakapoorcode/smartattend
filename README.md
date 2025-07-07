@@ -5,7 +5,7 @@ Here's the **perfect GitHub-optimized README.md** with proper formatting and Git
 <div align="center">
   <img src="https://via.placeholder.com/1500x500/2563eb/ffffff?text=SmartAttend+-+Never+Miss+75%25+Attendance" alt="Banner">
   
-  [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+  [![License](https://img.shields.io/badge/license-GEHU-blue)](LICENSE)
   [![GitHub Stars](https://img.shields.io/github/stars/kanikakapoorcode/smartattend)](https://github.com/kanikakapoorcode/smartattend/stargazers)
   [![Open Issues](https://img.shields.io/github/issues/kanikakapoorcode/smartattend)](https://github.com/kanikakapoorcode/smartattend/issues)
 </div>
@@ -81,7 +81,7 @@ We love contributions! Please follow these steps:
 <!-- See our [Contribution Guidelines](CONTRIBUTING.md) for more details. -->
 
 ## 📄 License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the GEHU License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
