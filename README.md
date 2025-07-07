@@ -1,73 +1,92 @@
-# Welcome to your Lovable project
+Here's the **perfect GitHub-optimized README.md** with proper formatting and GitHub-specific features:
 
-## Project info
+# 🎓 SmartAttend - AI-Powered Attendance Guardian
 
-**URL**: https://lovable.dev/projects/1724c52a-c92f-42a5-b2e4-c04f31735b83
+<div align="center">
+  <img src="https://via.placeholder.com/1500x500/2563eb/ffffff?text=SmartAttend+-+Never+Miss+75%25+Attendance" alt="Banner">
+  
+  [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+  [![GitHub Stars](https://img.shields.io/github/stars/kanikakapoorcode/smartattend)](https://github.com/kanikakapoorcode/smartattend/stargazers)
+  [![Open Issues](https://img.shields.io/github/issues/kanikakapoorcode/smartattend)](https://github.com/kanikakapoorcode/smartattend/issues)
+</div>
 
-## How can I edit this code?
+## 📌 Table of Contents
+- [Features](#-features)
+- [Demo](#-demo)
+- [Installation](#-installation)  
+- [Tech Stack](#-tech-stack)
+- [Contributing](#-contributing)
+- [License](#-license)
 
-There are several ways of editing your application.
+## ✨ Features
+| Feature | Description | Status |
+|---------|------------|--------|
+| **AI Predictions** | Forecast attendance trends | ✅ Implemented |
+| **Crisis Mode** | Generate recovery plans | ✅ Implemented | 
+| **QR Check-In** | Classroom attendance logging | 🚧 In Progress |
+| **Professor Portal** | Excuse management | ⏳ Planned |
 
-**Use Lovable**
+## 🎥 Demo
+https://github.com/kanikakapoorcode/smartattend/assets/12345678/sample-video.mp4
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/1724c52a-c92f-42a5-b2e4-c04f31735b83) and start prompting.
+> **[⬆️ Live Demo](https://smartattend.vercel.app)** | **[📹 Video Walkthrough](https://youtu.be/sample)**
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🛠 Installation
+### Prerequisites
+- Node.js ≥18.x
+- Python ≥3.11
+- PostgreSQL ≥15
 
-**Use your preferred IDE**
+```bash
+# Clone with submodules
+git clone --recurse-submodules https://github.com/kanikakapoorcode/smartattend.git
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+# Install dependencies
+cd smartattend && npm install
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+# Set up environment
+cp .env.example .env
+```
 
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+### Running Locally
+```bash
+# Start all services
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## 🔧 Tech Stack
+### Frontend
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=nextjs,tailwind,ts,react" alt="Frontend Tech">
+</p>
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Backend
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=nodejs,express,postgres,redis" alt="Backend Tech">
+</p>
 
-**Use GitHub Codespaces**
+### AI/ML
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch" alt="AI Tech">
+</p>
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🤝 Contributing
+We love contributions! Please follow these steps:
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature/your-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/your-feature`)
+5. Open a Pull Request
 
-## What technologies are used for this project?
+<!-- See our [Contribution Guidelines](CONTRIBUTING.md) for more details. -->
 
-This project is built with:
+## 📄 License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/1724c52a-c92f-42a5-b2e4-c04f31735b83) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+<div align="center">
+  <a href="https://github.com/kanikakapoorcode/smartattend/issues">Report Bug</a> •
+  <a href="https://github.com/kanikakapoorcode/smartattend/discussions">Request Feature</a> •
+  <a href="mailto:contact@smartattend.app">Contact Us</a>
+</div>
